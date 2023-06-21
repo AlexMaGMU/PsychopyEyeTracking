@@ -1,0 +1,700 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2022.2.4">
+  <Settings>
+    <Param val="use prefs" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="use prefs" valType="str" updates="None" name="Audio lib"/>
+    <Param val="$&quot;https://gmu.sona-systems.com/webstudy_credit.aspx?experiment_id=1760&amp;credit_token=c1298fa7e1074d19bd4b592810329a87&amp;survey_code=&quot; + expInfo['participant']" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="{'participant': ''}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="html" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="fileList" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="2" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="cm" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[2048, 1152]" valType="code" updates="None" name="Window size (pixels)"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="$[0,0,0]" valType="str" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="time_memorability_test" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="Tobii Technology" valType="str" updates="None" name="eyetracker"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="debug" valType="code" updates="None" name="logging level"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="X60" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="TX060-301-30700235" valType="str" updates="None" name="tbSerialNo"/>
+  </Settings>
+  <Routines>
+    <Routine name="begin">
+      <TextComponent name="start_txt">
+        <Param val="white" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="start_txt" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="For each trial, you'll start by staring at a point for half a second. Afterwards, a picture will pop up on screen for a specific amount of time. As fast and accurately as you can, press the 'left arrow key' if the image was shown for a short amount of time and the 'right arrow key' if it was long.&amp;#10;&amp;#10;You will complete 5 blocks, each seperated by a break. &amp;#10;&amp;#10;You'll start each block by calibrating the eye tracker." valType="extendedStr" updates="constant" name="text"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text_2">
+        <Param val="green" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="text_2" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, -.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Press the Space Bar to begin" valType="extendedStr" updates="constant" name="text"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_5">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_5" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="image">
+      <ImageComponent name="Scene">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$ImagePath" valType="str" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="None" valType="str" updates="constant" name="mask"/>
+        <Param val="Scene" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(15, 15)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$dur" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="code" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <CodeComponent name="code_5">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="line = []&amp;#10;if(etRecord.pos is not None):&amp;#10;    line.append(etRecord.pos)&amp;#10;    line.append(eyetracker.getLastSample()[21])&amp;#10;    line.append(eyetracker.getLastSample()[40])&amp;#10;&amp;#10;if (line):&amp;#10;    line.append('image')&amp;#10;else:&amp;#10;    line = ['None', 'None', 'None', 'None', 'image']&amp;#10;line.append(trials.thisN + 1)&amp;#10;line.append(block_num)&amp;#10;line.append(blockClock.getTime())&amp;#10;&amp;#10;f.write(&quot;, &quot;.join(str(i) for i in line))&amp;#10;f.write('\n')" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_5" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="response">
+      <TextComponent name="text">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Press the left arrow key if it was shorter than the 'middle' and the right arrow key if it was longer than the 'middle'" valType="str" updates="constant" name="text"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2">
+        <Param val="'left','right'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="end">
+      <TextComponent name="End_txt">
+        <Param val="white" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.1" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="End_txt" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="This concludes the experiment. Thank you for participating!" valType="extendedStr" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="code_7">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="f.close();&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="f.close()" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_7" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="end_block">
+      <TextComponent name="Break_txt">
+        <Param val="white" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.07" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="Break_txt" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$msg" valType="extendedStr" updates="set every repeat" name="text"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp">
+        <Param val="'c'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <CodeComponent name="code_3">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="&amp;#10;msg = &quot;Break time!\n\nYou've completed block &quot; + str(block_num) + &quot; of 5\n\nPress the \'c\' key to continue.&quot;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="block_num = 1;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="msg = ((&quot;You've completed block &quot; + block_num) + &quot; of 7&quot;);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="block_num = block_num + 1&amp;#10;msg = &quot;Break time!\n\nYou've completed block &quot; + str(block_num) + &quot; of 5\n\nPress the \'c\' key to continue.&quot;&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_3" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <EyetrackerRecordComponent name="etRecord_2">
+        <Param val="Stop Only" valType="str" updates="None" name="actionType"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="etRecord_2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+      </EyetrackerRecordComponent>
+    </Routine>
+    <Routine name="Welcome">
+      <TextComponent name="text_3">
+        <Param val="white" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.1" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="text_3" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Welcome to the Experiment!&amp;#10;&amp;#10;Press the spacebar to begin" valType="extendedStr" updates="constant" name="text"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_3">
+        <Param val="'space'" valType="list" updates="set every repeat" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_3" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="reproduce_stimulus">
+      <PolygonComponent name="polygon">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="0.0000, 0.0000, 0.0000" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="5" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="polygon" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <CodeComponent name="code">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="import {Keyboard} from 'psychopy/hardware';&amp;#10;" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="kb = new keyboard.Keyboard({&quot;bufferSize&quot;: 10, &quot;waitForStart&quot;: true});&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="remainingKeys = kb.getKeys(keyList=['space', 'escape'], waitRelease=False, clear=False)&amp;#10;if remainingKeys:&amp;#10;    for key in remainingKeys:&amp;#10;        if key.duration:&amp;#10;            curDuration = key.duration&amp;#10;            continueRoutine=False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="remainingKeys = kb.getKeys({&quot;keyList&quot;: [&quot;space&quot;, &quot;escape&quot;], &quot;waitRelease&quot;: false, &quot;clear&quot;: false});&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="kb.clearEvents();&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="kb.clearEvents()&amp;#10;kb.stop()&amp;#10;thisExp.addData('duration', curDuration)" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="text_4">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_4" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Reproduce!" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="reference">
+      <PolygonComponent name="polygon_2">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="0.0000, 0.0000, 0.0000" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="5" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="polygon_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="fixation">
+      <CodeComponent name="code_2">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="if ((etRecord.pos === [0, 0])) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="&amp;#10;line = []&amp;#10;if(etRecord.pos is not None):&amp;#10;    line.append(etRecord.pos)&amp;#10;    line.append(eyetracker.getLastSample()[21])&amp;#10;    line.append(eyetracker.getLastSample()[40])&amp;#10;&amp;#10;if (line):&amp;#10;    line.append('fixation')&amp;#10;else:&amp;#10;    line = ['None', 'None', 'None', 'None', 'fixation']&amp;#10;line.append(trials.thisN)&amp;#10;line.append(block_num)&amp;#10;&amp;#10;f.write(&quot;, &quot;.join(str(i) for i in line))&amp;#10;f.write('\n')&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_2" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <PolygonComponent name="polygon_3">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="polygon_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.3, 0.3)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val=".5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+    </Routine>
+    <EyetrackerCalibrationRoutine name="calibration">
+      <Param name="borderColor" updates="None" val="black" valType="color"/>
+      <Param name="borderWidth" updates="None" val="1" valType="num"/>
+      <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+      <Param name="disabled" updates="None" val="False" valType="bool"/>
+      <Param name="expandDur" updates="None" val="1" valType="num"/>
+      <Param name="expandScale" updates="None" val="1.5" valType="num"/>
+      <Param name="fillColor" updates="None" val="" valType="color"/>
+      <Param name="innerBorderColor" updates="None" val="black" valType="color"/>
+      <Param name="innerBorderWidth" updates="None" val="1" valType="num"/>
+      <Param name="innerFillColor" updates="None" val="yellow" valType="color"/>
+      <Param name="innerRadius" updates="None" val="0.0625" valType="num"/>
+      <Param name="movementAnimation" updates="None" val="True" valType="bool"/>
+      <Param name="movementDur" updates="None" val="1.0" valType="num"/>
+      <Param name="name" updates="None" val="calibration" valType="code"/>
+      <Param name="outerRadius" updates="None" val=".125" valType="num"/>
+      <Param name="progressMode" updates="None" val="time" valType="str"/>
+      <Param name="randomisePos" updates="None" val="True" valType="bool"/>
+      <Param name="targetDelay" updates="None" val="1.0" valType="num"/>
+      <Param name="targetDur" updates="None" val="1.5" valType="num"/>
+      <Param name="targetLayout" updates="None" val="NINE_POINTS" valType="str"/>
+      <Param name="textColor" updates="None" val="white" valType="color"/>
+      <Param name="units" updates="None" val="from exp settings" valType="str"/>
+    </EyetrackerCalibrationRoutine>
+    <Routine name="eyetracker_start">
+      <EyetrackerRecordComponent name="etRecord">
+        <Param val="Start Only" valType="str" updates="None" name="actionType"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="etRecord" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+      </EyetrackerRecordComponent>
+      <CodeComponent name="code_4">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="import csv&amp;#10;block_num = 1&amp;#10;filename = expInfo['participant'] + '_eyetracking_data.csv'&amp;#10;f = open(filename,'w')&amp;#10;&amp;#10;&amp;#10;#r = eyetracker.runSetupProcedure()" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="import * as csv from 'csv';&amp;#10;var f;&amp;#10;f = open(&quot;csvfile.csv&quot;, &quot;w&quot;);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="routine = 'start'&amp;#10;blockClock = core.Clock()" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_4" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="fixation_cond">
+      <PolygonComponent name="polygon_4">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="polygon_4" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.3, 0.3)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <CodeComponent name="code_6">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="line = []&amp;#10;if(etRecord.pos is not None):&amp;#10;    line.append(etRecord.pos)&amp;#10;    line.append(eyetracker.getLastSample()[21])&amp;#10;    line.append(eyetracker.getLastSample()[40])&amp;#10;    &amp;#10;if (line):&amp;#10;    line.append('fixation_cond')&amp;#10;else:&amp;#10;    line = ['None', 'None', 'None', 'None', 'fixation_cond']&amp;#10;line.append(trials.thisN + 1)&amp;#10;line.append(block_num)&amp;#10;line.append(blockClock.getTime())&amp;#10;&amp;#10;f.write(&quot;, &quot;.join(str(i) for i in line))&amp;#10;f.write('\n')&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_6" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <RegionOfInterestComponent name="roi">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="False" valType="bool" updates="None" name="debug"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="look at" valType="str" updates="None" name="endRoutineOn"/>
+        <Param val=".5" valType="num" updates="None" name="lookDur"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="roi" valType="code" updates="None" name="name"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="every look" valType="str" updates="None" name="save"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(3.6, 3.6)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="roi onset" valType="str" updates="constant" name="timeRelativeTo"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </RegionOfInterestComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="Welcome"/>
+    <Routine name="begin"/>
+    <LoopInitiator loopType="TrialHandler" name="blocks">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'ImagePath': 'Images/0 - scenes/LCMatched_bathroom_zoom0_6.jpg', 'zoom': 0, 'scene': 'bathroom', 'dur': 0.75}, {'ImagePath': 'Images/0 - scenes/LCMatched_bathroom_zoom0_2.jpg', 'zoom': 0, 'scene': 'bathroom', 'dur': 0.9343}, {'ImagePath': 'Images/0 - scenes/LCMatched_bathroom_zoom0_15.jpg', 'zoom': 0, 'scene': 'bathroom', 'dur': 1.1639}, {'ImagePath': 'Images/0 - scenes/LCMatched_bathroom_zoom0_10.jpg', 'zoom': 0, 'scene': 'bathroom', 'dur': 1.4499}, {'ImagePath': 'Images/0 - scenes/LCMatched_bathroom_zoom0_13.jpg', 'zoom': 0, 'scene': 'bathroom', 'dur': 1.8062}, {'ImagePath': 'Images/0 - scenes/LCMatched_bathroom_zoom0_7.jpg', 'zoom': 0, 'scene': 'bathroom', 'dur': 2.25}, {'ImagePath': 'Images/0 - scenes/LCMatched_bathroom_zoom0_8.jpg', 'zoom': 0, 'scene': 'bathroom', 'dur': 0.75}, {'ImagePath': 'Images/0 - scenes/LCMatched_bathroom_zoom0_1.jpg', 'zoom': 0, 'scene': 'bathroom', 'dur': 0.9343}, {'ImagePath': 'Images/0 - scenes/LCMatched_bathroom_zoom0_14.jpg', 'zoom': 0, 'scene': 'bathroom', 'dur': 1.1639}, {'ImagePath': 'Images/0 - scenes/LCMatched_bathroom_zoom0_11.jpg', 'zoom': 0, 'scene': 'bathroom', 'dur': 1.4499}, {'ImagePath': 'Images/0 - scenes/LCMatched_bathroom_zoom0_3.jpg', 'zoom': 0, 'scene': 'bathroom', 'dur': 1.8062}, {'ImagePath': 'Images/0 - scenes/LCMatched_bathroom_zoom0_9.jpg', 'zoom': 0, 'scene': 'bathroom', 'dur': 2.25}, {'ImagePath': 'Images/0 - scenes/LCMatched_bedroom_zoom0_10.jpg', 'zoom': 0, 'scene': 'bedroom', 'dur': 0.75}, {'ImagePath': 'Images/0 - scenes/LCMatched_bedroom_zoom0_4.jpg', 'zoom': 0, 'scene': 'bedroom', 'dur': 0.9343}, {'ImagePath': 'Images/0 - scenes/LCMatched_bedroom_zoom0_11.jpg', 'zoom': 0, 'scene': 'bedroom', 'dur': 1.1639}, {'ImagePath': 'Images/0 - scenes/LCMatched_bedroom_zoom0_12.jpg', 'zoom': 0, 'scene': 'bedroom', 'dur': 1.4499}, {'ImagePath': 'Images/0 - scenes/LCMatched_bedroom_zoom0_2.jpg', 'zoom': 0, 'scene': 'bedroom', 'dur': 1.8062}, {'ImagePath': 'Images/0 - scenes/LCMatched_bedroom_zoom0_14.jpg', 'zoom': 0, 'scene': 'bedroom', 'dur': 2.25}, {'ImagePath': 'Images/0 - scenes/LCMatched_bedroom_zoom0_17.jpg', 'zoom': 0, 'scene': 'bedroom', 'dur': 0.75}, {'ImagePath': 'Images/0 - scenes/LCMatched_bedroom_zoom0_3.jpg', 'zoom': 0, 'scene': 'bedroom', 'dur': 0.9343}, {'ImagePath': 'Images/0 - scenes/LCMatched_bedroom_zoom0_16.jpg', 'zoom': 0, 'scene': 'bedroom', 'dur': 1.1639}, {'ImagePath': 'Images/0 - scenes/LCMatched_bedroom_zoom0_18.jpg', 'zoom': 0, 'scene': 'bedroom', 'dur': 1.4499}, {'ImagePath': 'Images/0 - scenes/LCMatched_bedroom_zoom0_13.jpg', 'zoom': 0, 'scene': 'bedroom', 'dur': 1.8062}, {'ImagePath': 'Images/0 - scenes/LCMatched_bedroom_zoom0_9.jpg', 'zoom': 0, 'scene': 'bedroom', 'dur': 2.25}, {'ImagePath': 'Images/0 - scenes/LCMatched_crafts_zoom0_14.jpg', 'zoom': 0, 'scene': 'craft', 'dur': 0.75}, {'ImagePath': 'Images/0 - scenes/LCMatched_crafts_zoom0_7.jpg', 'zoom': 0, 'scene': 'craft', 'dur': 0.9343}, {'ImagePath': 'Images/0 - scenes/LCMatched_crafts_zoom0_9.jpg', 'zoom': 0, 'scene': 'craft', 'dur': 1.1639}, {'ImagePath': 'Images/0 - scenes/LCMatched_crafts_zoom0_13.jpg', 'zoom': 0, 'scene': 'craft', 'dur': 1.4499}, {'ImagePath': 'Images/0 - scenes/LCMatched_crafts_zoom0_5.jpg', 'zoom': 0, 'scene': 'craft', 'dur': 1.8062}, {'ImagePath': 'Images/0 - scenes/LCMatched_crafts_zoom0_1.jpg', 'zoom': 0, 'scene': 'craft', 'dur': 2.25}, {'ImagePath': 'Images/0 - scenes/LCMatched_crafts_zoom0_2.jpg', 'zoom': 0, 'scene': 'craft', 'dur': 0.75}, {'ImagePath': 'Images/0 - scenes/LCMatched_crafts_zoom0_12.jpg', 'zoom': 0, 'scene': 'craft', 'dur': 0.9343}, {'ImagePath': 'Images/0 - scenes/LCMatched_crafts_zoom0_16.jpg', 'zoom': 0, 'scene': 'craft', 'dur': 1.1639}, {'ImagePath': 'Images/0 - scenes/LCMatched_crafts_zoom0_15.jpg', 'zoom': 0, 'scene': 'craft', 'dur': 1.4499}, {'ImagePath': 'Images/0 - scenes/LCMatched_crafts_zoom0_6.jpg', 'zoom': 0, 'scene': 'craft', 'dur': 1.8062}, {'ImagePath': 'Images/0 - scenes/LCMatched_crafts_zoom0_8.jpg', 'zoom': 0, 'scene': 'craft', 'dur': 2.25}, {'ImagePath': 'Images/0 - scenes/LCMatched_dining_zoom0_4.jpg', 'zoom': 0, 'scene': 'dining', 'dur': 0.75}, {'ImagePath': 'Images/0 - scenes/LCMatched_dining_zoom0_11.jpg', 'zoom': 0, 'scene': 'dining', 'dur': 0.9343}, {'ImagePath': 'Images/0 - scenes/LCMatched_dining_zoom0_2.jpg', 'zoom': 0, 'scene': 'dining', 'dur': 1.1639}, {'ImagePath': 'Images/0 - scenes/LCMatched_dining_zoom0_19.jpg', 'zoom': 0, 'scene': 'dining', 'dur': 1.4499}, {'ImagePath': 'Images/0 - scenes/LCMatched_dining_zoom0_18.jpg', 'zoom': 0, 'scene': 'dining', 'dur': 1.8062}, {'ImagePath': 'Images/0 - scenes/LCMatched_dining_zoom0_16.jpg', 'zoom': 0, 'scene': 'dining', 'dur': 2.25}, {'ImagePath': 'Images/0 - scenes/LCMatched_dining_zoom0_3.jpg', 'zoom': 0, 'scene': 'dining', 'dur': 0.75}, {'ImagePath': 'Images/0 - scenes/LCMatched_dining_zoom0_1.jpg', 'zoom': 0, 'scene': 'dining', 'dur': 0.9343}, {'ImagePath': 'Images/0 - scenes/LCMatched_dining_zoom0_9.jpg', 'zoom': 0, 'scene': 'dining', 'dur': 1.1639}, {'ImagePath': 'Images/0 - scenes/LCMatched_dining_zoom0_8.jpg', 'zoom': 0, 'scene': 'dining', 'dur': 1.4499}, {'ImagePath': 'Images/0 - scenes/LCMatched_dining_zoom0_13.jpg', 'zoom': 0, 'scene': 'dining', 'dur': 1.8062}, {'ImagePath': 'Images/0 - scenes/LCMatched_dining_zoom0_12.jpg', 'zoom': 0, 'scene': 'dining', 'dur': 2.25}, {'ImagePath': 'Images/0 - scenes/LCMatched_kitchen_zoom0_13.jpg', 'zoom': 0, 'scene': 'kitchen', 'dur': 0.75}, {'ImagePath': 'Images/0 - scenes/LCMatched_kitchen_zoom0_26.jpg', 'zoom': 0, 'scene': 'kitchen', 'dur': 0.9343}, {'ImagePath': 'Images/0 - scenes/LCMatched_kitchen_zoom0_2.jpg', 'zoom': 0, 'scene': 'kitchen', 'dur': 1.1639}, {'ImagePath': 'Images/0 - scenes/LCMatched_kitchen_zoom0_22.jpg', 'zoom': 0, 'scene': 'kitchen', 'dur': 1.4499}, {'ImagePath': 'Images/0 - scenes/LCMatched_kitchen_zoom0_11.jpg', 'zoom': 0, 'scene': 'kitchen', 'dur': 1.8062}, {'ImagePath': 'Images/0 - scenes/LCMatched_kitchen_zoom0_24.jpg', 'zoom': 0, 'scene': 'kitchen', 'dur': 2.25}, {'ImagePath': 'Images/0 - scenes/LCMatched_kitchen_zoom0_15.jpg', 'zoom': 0, 'scene': 'kitchen', 'dur': 0.75}, {'ImagePath': 'Images/0 - scenes/LCMatched_kitchen_zoom0_17.jpg', 'zoom': 0, 'scene': 'kitchen', 'dur': 0.9343}, {'ImagePath': 'Images/0 - scenes/LCMatched_kitchen_zoom0_16.jpg', 'zoom': 0, 'scene': 'kitchen', 'dur': 1.1639}, {'ImagePath': 'Images/0 - scenes/LCMatched_kitchen_zoom0_19.jpg', 'zoom': 0, 'scene': 'kitchen', 'dur': 1.4499}, {'ImagePath': 'Images/0 - scenes/LCMatched_kitchen_zoom0_9.jpg', 'zoom': 0, 'scene': 'kitchen', 'dur': 1.8062}, {'ImagePath': 'Images/0 - scenes/LCMatched_kitchen_zoom0_20.jpg', 'zoom': 0, 'scene': 'kitchen', 'dur': 2.25}, {'ImagePath': 'Images/0 - scenes/LCMatched_office_zoom0_3.jpg', 'zoom': 0, 'scene': 'office', 'dur': 0.75}, {'ImagePath': 'Images/0 - scenes/LCMatched_office_zoom0_4.jpg', 'zoom': 0, 'scene': 'office', 'dur': 0.9343}, {'ImagePath': 'Images/0 - scenes/LCMatched_office_zoom0_11.jpg', 'zoom': 0, 'scene': 'office', 'dur': 1.1639}, {'ImagePath': 'Images/0 - scenes/LCMatched_office_zoom0_2.jpg', 'zoom': 0, 'scene': 'office', 'dur': 1.4499}, {'ImagePath': 'Images/0 - scenes/LCMatched_office_zoom0_10.jpg', 'zoom': 0, 'scene': 'office', 'dur': 1.8062}, {'ImagePath': 'Images/0 - scenes/LCMatched_office_zoom0_9.jpg', 'zoom': 0, 'scene': 'office', 'dur': 2.25}, {'ImagePath': 'Images/0 - scenes/LCMatched_office_zoom0_12.jpg', 'zoom': 0, 'scene': 'office', 'dur': 0.75}, {'ImagePath': 'Images/0 - scenes/LCMatched_office_zoom0_5.jpg', 'zoom': 0, 'scene': 'office', 'dur': 0.9343}, {'ImagePath': 'Images/0 - scenes/LCMatched_office_zoom0_13.jpg', 'zoom': 0, 'scene': 'office', 'dur': 1.1639}, {'ImagePath': 'Images/0 - scenes/LCMatched_office_zoom0_1.jpg', 'zoom': 0, 'scene': 'office', 'dur': 1.4499}, {'ImagePath': 'Images/0 - scenes/LCMatched_office_zoom0_8.jpg', 'zoom': 0, 'scene': 'office', 'dur': 1.8062}, {'ImagePath': 'Images/0 - scenes/LCMatched_office_zoom0_7.jpg', 'zoom': 0, 'scene': 'office', 'dur': 2.25}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bathroom_zoom2_10.jpg', 'zoom': 2, 'scene': 'bathroom', 'dur': 0.75}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bathroom_zoom2_14.jpg', 'zoom': 2, 'scene': 'bathroom', 'dur': 0.9343}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bathroom_zoom2_13.jpg', 'zoom': 2, 'scene': 'bathroom', 'dur': 1.1639}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bathroom_zoom2_20.jpg', 'zoom': 2, 'scene': 'bathroom', 'dur': 1.4499}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bathroom_zoom2_12.jpg', 'zoom': 2, 'scene': 'bathroom', 'dur': 1.8062}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bathroom_zoom2_22.jpg', 'zoom': 2, 'scene': 'bathroom', 'dur': 2.25}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bathroom_zoom2_11.jpg', 'zoom': 2, 'scene': 'bathroom', 'dur': 0.75}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bathroom_zoom2_17.jpg', 'zoom': 2, 'scene': 'bathroom', 'dur': 0.9343}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bathroom_zoom2_19.jpg', 'zoom': 2, 'scene': 'bathroom', 'dur': 1.1639}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bathroom_zoom2_4.jpg', 'zoom': 2, 'scene': 'bathroom', 'dur': 1.4499}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bathroom_zoom2_15.jpg', 'zoom': 2, 'scene': 'bathroom', 'dur': 1.8062}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bathroom_zoom2_16.jpg', 'zoom': 2, 'scene': 'bathroom', 'dur': 2.25}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bedroom_zoom2_15.jpg', 'zoom': 2, 'scene': 'bedroom', 'dur': 0.75}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bedroom_zoom2_2.jpg', 'zoom': 2, 'scene': 'bedroom', 'dur': 0.9343}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bedroom_zoom2_13.jpg', 'zoom': 2, 'scene': 'bedroom', 'dur': 1.1639}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bedroom_zoom2_8.jpg', 'zoom': 2, 'scene': 'bedroom', 'dur': 1.4499}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bedroom_zoom2_7.jpg', 'zoom': 2, 'scene': 'bedroom', 'dur': 1.8062}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bedroom_zoom2_18.jpg', 'zoom': 2, 'scene': 'bedroom', 'dur': 2.25}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bedroom_zoom2_19.jpg', 'zoom': 2, 'scene': 'bedroom', 'dur': 0.75}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bedroom_zoom2_14.jpg', 'zoom': 2, 'scene': 'bedroom', 'dur': 0.9343}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bedroom_zoom2_3.jpg', 'zoom': 2, 'scene': 'bedroom', 'dur': 1.1639}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bedroom_zoom2_11.jpg', 'zoom': 2, 'scene': 'bedroom', 'dur': 1.4499}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bedroom_zoom2_1.jpg', 'zoom': 2, 'scene': 'bedroom', 'dur': 1.8062}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bedroom_zoom2_10.jpg', 'zoom': 2, 'scene': 'bedroom', 'dur': 2.25}, {'ImagePath': 'Images/2 - workspaces/LCMatched_crafts_zoom2_1.jpg', 'zoom': 2, 'scene': 'craft', 'dur': 0.75}, {'ImagePath': 'Images/2 - workspaces/LCMatched_crafts_zoom2_26.jpg', 'zoom': 2, 'scene': 'craft', 'dur': 0.9343}, {'ImagePath': 'Images/2 - workspaces/LCMatched_crafts_zoom2_27.jpg', 'zoom': 2, 'scene': 'craft', 'dur': 1.1639}, {'ImagePath': 'Images/2 - workspaces/LCMatched_crafts_zoom2_10.jpg', 'zoom': 2, 'scene': 'craft', 'dur': 1.4499}, {'ImagePath': 'Images/2 - workspaces/LCMatched_crafts_zoom2_5.jpg', 'zoom': 2, 'scene': 'craft', 'dur': 1.8062}, {'ImagePath': 'Images/2 - workspaces/LCMatched_crafts_zoom2_31.jpg', 'zoom': 2, 'scene': 'craft', 'dur': 2.25}, {'ImagePath': 'Images/2 - workspaces/LCMatched_crafts_zoom2_9.jpg', 'zoom': 2, 'scene': 'craft', 'dur': 0.75}, {'ImagePath': 'Images/2 - workspaces/LCMatched_crafts_zoom2_22.jpg', 'zoom': 2, 'scene': 'craft', 'dur': 0.9343}, {'ImagePath': 'Images/2 - workspaces/LCMatched_crafts_zoom2_6.jpg', 'zoom': 2, 'scene': 'craft', 'dur': 1.1639}, {'ImagePath': 'Images/2 - workspaces/LCMatched_crafts_zoom2_12.jpg', 'zoom': 2, 'scene': 'craft', 'dur': 1.4499}, {'ImagePath': 'Images/2 - workspaces/LCMatched_crafts_zoom2_4.jpg', 'zoom': 2, 'scene': 'craft', 'dur': 1.8062}, {'ImagePath': 'Images/2 - workspaces/LCMatched_crafts_zoom2_21.jpg', 'zoom': 2, 'scene': 'craft', 'dur': 2.25}, {'ImagePath': 'Images/2 - workspaces/LCMatched_dining_zoom2_17.jpg', 'zoom': 2, 'scene': 'dining', 'dur': 0.75}, {'ImagePath': 'Images/2 - workspaces/LCMatched_dining_zoom2_2.jpg', 'zoom': 2, 'scene': 'dining', 'dur': 0.9343}, {'ImagePath': 'Images/2 - workspaces/LCMatched_dining_zoom2_5.jpg', 'zoom': 2, 'scene': 'dining', 'dur': 1.1639}, {'ImagePath': 'Images/2 - workspaces/LCMatched_dining_zoom2_14.jpg', 'zoom': 2, 'scene': 'dining', 'dur': 1.4499}, {'ImagePath': 'Images/2 - workspaces/LCMatched_dining_zoom2_8.jpg', 'zoom': 2, 'scene': 'dining', 'dur': 1.8062}, {'ImagePath': 'Images/2 - workspaces/LCMatched_dining_zoom2_9.jpg', 'zoom': 2, 'scene': 'dining', 'dur': 2.25}, {'ImagePath': 'Images/2 - workspaces/LCMatched_dining_zoom2_7.jpg', 'zoom': 2, 'scene': 'dining', 'dur': 0.75}, {'ImagePath': 'Images/2 - workspaces/LCMatched_dining_zoom2_13.jpg', 'zoom': 2, 'scene': 'dining', 'dur': 0.9343}, {'ImagePath': 'Images/2 - workspaces/LCMatched_dining_zoom2_6.jpg', 'zoom': 2, 'scene': 'dining', 'dur': 1.1639}, {'ImagePath': 'Images/2 - workspaces/LCMatched_dining_zoom2_3.jpg', 'zoom': 2, 'scene': 'dining', 'dur': 1.4499}, {'ImagePath': 'Images/2 - workspaces/LCMatched_dining_zoom2_10.jpg', 'zoom': 2, 'scene': 'dining', 'dur': 1.8062}, {'ImagePath': 'Images/2 - workspaces/LCMatched_dining_zoom2_12.jpg', 'zoom': 2, 'scene': 'dining', 'dur': 2.25}, {'ImagePath': 'Images/2 - workspaces/LCMatched_kitchen_zoom2_31.jpg', 'zoom': 2, 'scene': 'kitchen', 'dur': 0.75}, {'ImagePath': 'Images/2 - workspaces/LCMatched_kitchen_zoom2_52.jpg', 'zoom': 2, 'scene': 'kitchen', 'dur': 0.9343}, {'ImagePath': 'Images/2 - workspaces/LCMatched_kitchen_zoom2_35.jpg', 'zoom': 2, 'scene': 'kitchen', 'dur': 1.1639}, {'ImagePath': 'Images/2 - workspaces/LCMatched_kitchen_zoom2_33.jpg', 'zoom': 2, 'scene': 'kitchen', 'dur': 1.4499}, {'ImagePath': 'Images/2 - workspaces/LCMatched_kitchen_zoom2_5.jpg', 'zoom': 2, 'scene': 'kitchen', 'dur': 1.8062}, {'ImagePath': 'Images/2 - workspaces/LCMatched_kitchen_zoom2_8.jpg', 'zoom': 2, 'scene': 'kitchen', 'dur': 2.25}, {'ImagePath': 'Images/2 - workspaces/LCMatched_kitchen_zoom2_29.jpg', 'zoom': 2, 'scene': 'kitchen', 'dur': 0.75}, {'ImagePath': 'Images/2 - workspaces/LCMatched_kitchen_zoom2_27.jpg', 'zoom': 2, 'scene': 'kitchen', 'dur': 0.9343}, {'ImagePath': 'Images/2 - workspaces/LCMatched_kitchen_zoom2_23.jpg', 'zoom': 2, 'scene': 'kitchen', 'dur': 1.1639}, {'ImagePath': 'Images/2 - workspaces/LCMatched_kitchen_zoom2_20.jpg', 'zoom': 2, 'scene': 'kitchen', 'dur': 1.4499}, {'ImagePath': 'Images/2 - workspaces/LCMatched_kitchen_zoom2_1.jpg', 'zoom': 2, 'scene': 'kitchen', 'dur': 1.8062}, {'ImagePath': 'Images/2 - workspaces/LCMatched_kitchen_zoom2_16.jpg', 'zoom': 2, 'scene': 'kitchen', 'dur': 2.25}, {'ImagePath': 'Images/2 - workspaces/LCMatched_office_zoom2_29.jpg', 'zoom': 2, 'scene': 'office', 'dur': 0.75}, {'ImagePath': 'Images/2 - workspaces/LCMatched_office_zoom2_30.jpg', 'zoom': 2, 'scene': 'office', 'dur': 0.9343}, {'ImagePath': 'Images/2 - workspaces/LCMatched_office_zoom2_33.jpg', 'zoom': 2, 'scene': 'office', 'dur': 1.1639}, {'ImagePath': 'Images/2 - workspaces/LCMatched_office_zoom2_32.jpg', 'zoom': 2, 'scene': 'office', 'dur': 1.4499}, {'ImagePath': 'Images/2 - workspaces/LCMatched_office_zoom2_34.jpg', 'zoom': 2, 'scene': 'office', 'dur': 1.8062}, {'ImagePath': 'Images/2 - workspaces/LCMatched_office_zoom2_4.jpg', 'zoom': 2, 'scene': 'office', 'dur': 2.25}, {'ImagePath': 'Images/2 - workspaces/LCMatched_office_zoom2_35.jpg', 'zoom': 2, 'scene': 'office', 'dur': 0.75}, {'ImagePath': 'Images/2 - workspaces/LCMatched_office_zoom2_26.jpg', 'zoom': 2, 'scene': 'office', 'dur': 0.9343}, {'ImagePath': 'Images/2 - workspaces/LCMatched_office_zoom2_31.jpg', 'zoom': 2, 'scene': 'office', 'dur': 1.1639}, {'ImagePath': 'Images/2 - workspaces/LCMatched_office_zoom2_12.jpg', 'zoom': 2, 'scene': 'office', 'dur': 1.4499}, {'ImagePath': 'Images/2 - workspaces/LCMatched_office_zoom2_28.jpg', 'zoom': 2, 'scene': 'office', 'dur': 1.8062}, {'ImagePath': 'Images/2 - workspaces/LCMatched_office_zoom2_27.jpg', 'zoom': 2, 'scene': 'office', 'dur': 2.25}, {'ImagePath': 'Images/4 - objects/LCMatched_bathroom_zoom4_8.jpg', 'zoom': 4, 'scene': 'bathroom', 'dur': 0.75}, {'ImagePath': 'Images/4 - objects/LCMatched_bathroom_zoom4_7.jpg', 'zoom': 4, 'scene': 'bathroom', 'dur': 0.9343}, {'ImagePath': 'Images/4 - objects/LCMatched_bathroom_zoom4_12.jpg', 'zoom': 4, 'scene': 'bathroom', 'dur': 1.1639}, {'ImagePath': 'Images/4 - objects/LCMatched_bathroom_zoom4_2.jpg', 'zoom': 4, 'scene': 'bathroom', 'dur': 1.4499}, {'ImagePath': 'Images/4 - objects/LCMatched_bathroom_zoom4_4.jpg', 'zoom': 4, 'scene': 'bathroom', 'dur': 1.8062}, {'ImagePath': 'Images/4 - objects/LCMatched_bathroom_zoom4_10.jpg', 'zoom': 4, 'scene': 'bathroom', 'dur': 2.25}, {'ImagePath': 'Images/4 - objects/LCMatched_bathroom_zoom4_9.jpg', 'zoom': 4, 'scene': 'bathroom', 'dur': 0.75}, {'ImagePath': 'Images/4 - objects/LCMatched_bathroom_zoom4_13.jpg', 'zoom': 4, 'scene': 'bathroom', 'dur': 0.9343}, {'ImagePath': 'Images/4 - objects/LCMatched_bathroom_zoom4_1.jpg', 'zoom': 4, 'scene': 'bathroom', 'dur': 1.1639}, {'ImagePath': 'Images/4 - objects/LCMatched_bathroom_zoom4_6.jpg', 'zoom': 4, 'scene': 'bathroom', 'dur': 1.4499}, {'ImagePath': 'Images/4 - objects/LCMatched_bathroom_zoom4_11.jpg', 'zoom': 4, 'scene': 'bathroom', 'dur': 1.8062}, {'ImagePath': 'Images/4 - objects/LCMatched_bathroom_zoom4_18.jpg', 'zoom': 4, 'scene': 'bathroom', 'dur': 2.25}, {'ImagePath': 'Images/4 - objects/LCMatched_bedroom_zoom4_11.jpg', 'zoom': 4, 'scene': 'bedroom', 'dur': 0.75}, {'ImagePath': 'Images/4 - objects/LCMatched_bedroom_zoom4_6.jpg', 'zoom': 4, 'scene': 'bedroom', 'dur': 0.9343}, {'ImagePath': 'Images/4 - objects/LCMatched_bedroom_zoom4_5.jpg', 'zoom': 4, 'scene': 'bedroom', 'dur': 1.1639}, {'ImagePath': 'Images/4 - objects/LCMatched_bedroom_zoom4_10.jpg', 'zoom': 4, 'scene': 'bedroom', 'dur': 1.4499}, {'ImagePath': 'Images/4 - objects/LCMatched_bedroom_zoom4_3.jpg', 'zoom': 4, 'scene': 'bedroom', 'dur': 1.8062}, {'ImagePath': 'Images/4 - objects/LCMatched_bedroom_zoom4_4.jpg', 'zoom': 4, 'scene': 'bedroom', 'dur': 2.25}, {'ImagePath': 'Images/4 - objects/LCMatched_bedroom_zoom4_2.jpg', 'zoom': 4, 'scene': 'bedroom', 'dur': 0.75}, {'ImagePath': 'Images/4 - objects/LCMatched_bedroom_zoom4_8.jpg', 'zoom': 4, 'scene': 'bedroom', 'dur': 0.9343}, {'ImagePath': 'Images/4 - objects/LCMatched_bedroom_zoom4_9.jpg', 'zoom': 4, 'scene': 'bedroom', 'dur': 1.1639}, {'ImagePath': 'Images/4 - objects/LCMatched_bedroom_zoom4_7.jpg', 'zoom': 4, 'scene': 'bedroom', 'dur': 1.4499}, {'ImagePath': 'Images/4 - objects/LCMatched_bedroom_zoom4_1.jpg', 'zoom': 4, 'scene': 'bedroom', 'dur': 1.8062}, {'ImagePath': 'Images/4 - objects/LCMatched_bedroom_zoom4_12.jpg', 'zoom': 4, 'scene': 'bedroom', 'dur': 2.25}, {'ImagePath': 'Images/4 - objects/LCMatched_crafts_zoom4_5.jpg', 'zoom': 4, 'scene': 'craft', 'dur': 0.75}, {'ImagePath': 'Images/4 - objects/LCMatched_crafts_zoom4_4.jpg', 'zoom': 4, 'scene': 'craft', 'dur': 0.9343}, {'ImagePath': 'Images/4 - objects/LCMatched_crafts_zoom4_9.jpg', 'zoom': 4, 'scene': 'craft', 'dur': 1.1639}, {'ImagePath': 'Images/4 - objects/LCMatched_crafts_zoom4_12.jpg', 'zoom': 4, 'scene': 'craft', 'dur': 1.4499}, {'ImagePath': 'Images/4 - objects/LCMatched_crafts_zoom4_21.jpg', 'zoom': 4, 'scene': 'craft', 'dur': 1.8062}, {'ImagePath': 'Images/4 - objects/LCMatched_crafts_zoom4_10.jpg', 'zoom': 4, 'scene': 'craft', 'dur': 2.25}, {'ImagePath': 'Images/4 - objects/LCMatched_crafts_zoom4_16.jpg', 'zoom': 4, 'scene': 'craft', 'dur': 0.75}, {'ImagePath': 'Images/4 - objects/LCMatched_crafts_zoom4_3.jpg', 'zoom': 4, 'scene': 'craft', 'dur': 0.9343}, {'ImagePath': 'Images/4 - objects/LCMatched_crafts_zoom4_2.jpg', 'zoom': 4, 'scene': 'craft', 'dur': 1.1639}, {'ImagePath': 'Images/4 - objects/LCMatched_crafts_zoom4_17.jpg', 'zoom': 4, 'scene': 'craft', 'dur': 1.4499}, {'ImagePath': 'Images/4 - objects/LCMatched_crafts_zoom4_13.jpg', 'zoom': 4, 'scene': 'craft', 'dur': 1.8062}, {'ImagePath': 'Images/4 - objects/LCMatched_crafts_zoom4_14.jpg', 'zoom': 4, 'scene': 'craft', 'dur': 2.25}, {'ImagePath': 'Images/4 - objects/LCMatched_dining_zoom4_12.jpg', 'zoom': 4, 'scene': 'dining', 'dur': 0.75}, {'ImagePath': 'Images/4 - objects/LCMatched_dining_zoom4_18.jpg', 'zoom': 4, 'scene': 'dining', 'dur': 0.9343}, {'ImagePath': 'Images/4 - objects/LCMatched_dining_zoom4_16.jpg', 'zoom': 4, 'scene': 'dining', 'dur': 1.1639}, {'ImagePath': 'Images/4 - objects/LCMatched_dining_zoom4_1.jpg', 'zoom': 4, 'scene': 'dining', 'dur': 1.4499}, {'ImagePath': 'Images/4 - objects/LCMatched_dining_zoom4_19.jpg', 'zoom': 4, 'scene': 'dining', 'dur': 1.8062}, {'ImagePath': 'Images/4 - objects/LCMatched_dining_zoom4_3.jpg', 'zoom': 4, 'scene': 'dining', 'dur': 2.25}, {'ImagePath': 'Images/4 - objects/LCMatched_dining_zoom4_2.jpg', 'zoom': 4, 'scene': 'dining', 'dur': 0.75}, {'ImagePath': 'Images/4 - objects/LCMatched_dining_zoom4_4.jpg', 'zoom': 4, 'scene': 'dining', 'dur': 0.9343}, {'ImagePath': 'Images/4 - objects/LCMatched_dining_zoom4_7.jpg', 'zoom': 4, 'scene': 'dining', 'dur': 1.1639}, {'ImagePath': 'Images/4 - objects/LCMatched_dining_zoom4_17.jpg', 'zoom': 4, 'scene': 'dining', 'dur': 1.4499}, {'ImagePath': 'Images/4 - objects/LCMatched_dining_zoom4_15.jpg', 'zoom': 4, 'scene': 'dining', 'dur': 1.8062}, {'ImagePath': 'Images/4 - objects/LCMatched_dining_zoom4_5.jpg', 'zoom': 4, 'scene': 'dining', 'dur': 2.25}, {'ImagePath': 'Images/4 - objects/LCMatched_kitchen_zoom4_14.jpg', 'zoom': 4, 'scene': 'kitchen', 'dur': 0.75}, {'ImagePath': 'Images/4 - objects/LCMatched_kitchen_zoom4_16.jpg', 'zoom': 4, 'scene': 'kitchen', 'dur': 0.9343}, {'ImagePath': 'Images/4 - objects/LCMatched_kitchen_zoom4_1.jpg', 'zoom': 4, 'scene': 'kitchen', 'dur': 1.1639}, {'ImagePath': 'Images/4 - objects/LCMatched_kitchen_zoom4_5.jpg', 'zoom': 4, 'scene': 'kitchen', 'dur': 1.4499}, {'ImagePath': 'Images/4 - objects/LCMatched_kitchen_zoom4_24.jpg', 'zoom': 4, 'scene': 'kitchen', 'dur': 1.8062}, {'ImagePath': 'Images/4 - objects/LCMatched_kitchen_zoom4_22.jpg', 'zoom': 4, 'scene': 'kitchen', 'dur': 2.25}, {'ImagePath': 'Images/4 - objects/LCMatched_kitchen_zoom4_7.jpg', 'zoom': 4, 'scene': 'kitchen', 'dur': 0.75}, {'ImagePath': 'Images/4 - objects/LCMatched_kitchen_zoom4_18.jpg', 'zoom': 4, 'scene': 'kitchen', 'dur': 0.9343}, {'ImagePath': 'Images/4 - objects/LCMatched_kitchen_zoom4_20.jpg', 'zoom': 4, 'scene': 'kitchen', 'dur': 1.1639}, {'ImagePath': 'Images/4 - objects/LCMatched_kitchen_zoom4_17.jpg', 'zoom': 4, 'scene': 'kitchen', 'dur': 1.4499}, {'ImagePath': 'Images/4 - objects/LCMatched_kitchen_zoom4_11.jpg', 'zoom': 4, 'scene': 'kitchen', 'dur': 1.8062}, {'ImagePath': 'Images/4 - objects/LCMatched_kitchen_zoom4_9.jpg', 'zoom': 4, 'scene': 'kitchen', 'dur': 2.25}, {'ImagePath': 'Images/4 - objects/LCMatched_office_zoom4_10.jpg', 'zoom': 4, 'scene': 'office', 'dur': 0.75}, {'ImagePath': 'Images/4 - objects/LCMatched_office_zoom4_1.jpg', 'zoom': 4, 'scene': 'office', 'dur': 0.9343}, {'ImagePath': 'Images/4 - objects/LCMatched_office_zoom4_3.jpg', 'zoom': 4, 'scene': 'office', 'dur': 1.1639}, {'ImagePath': 'Images/4 - objects/LCMatched_office_zoom4_4.jpg', 'zoom': 4, 'scene': 'office', 'dur': 1.4499}, {'ImagePath': 'Images/4 - objects/LCMatched_office_zoom4_11.jpg', 'zoom': 4, 'scene': 'office', 'dur': 1.8062}, {'ImagePath': 'Images/4 - objects/LCMatched_office_zoom4_7.jpg', 'zoom': 4, 'scene': 'office', 'dur': 2.25}, {'ImagePath': 'Images/4 - objects/LCMatched_office_zoom4_13.jpg', 'zoom': 4, 'scene': 'office', 'dur': 0.75}, {'ImagePath': 'Images/4 - objects/LCMatched_office_zoom4_9.jpg', 'zoom': 4, 'scene': 'office', 'dur': 0.9343}, {'ImagePath': 'Images/4 - objects/LCMatched_office_zoom4_12.jpg', 'zoom': 4, 'scene': 'office', 'dur': 1.1639}, {'ImagePath': 'Images/4 - objects/LCMatched_office_zoom4_14.jpg', 'zoom': 4, 'scene': 'office', 'dur': 1.4499}, {'ImagePath': 'Images/4 - objects/LCMatched_office_zoom4_8.jpg', 'zoom': 4, 'scene': 'office', 'dur': 1.8062}, {'ImagePath': 'Images/4 - objects/LCMatched_office_zoom4_5.jpg', 'zoom': 4, 'scene': 'office', 'dur': 2.25}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="blocks.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="5" valType="code"/>
+      <Param name="name" updates="None" val="blocks" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <EyetrackerCalibrationRoutine name="calibration"/>
+    <Routine name="eyetracker_start"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'ImagePath': 'Images/0 - scenes/LCMatched_bathroom_zoom0_6.jpg', 'zoom': 0, 'scene': 'bathroom', 'dur': 0.75}, {'ImagePath': 'Images/0 - scenes/LCMatched_bathroom_zoom0_2.jpg', 'zoom': 0, 'scene': 'bathroom', 'dur': 0.9343}, {'ImagePath': 'Images/0 - scenes/LCMatched_bathroom_zoom0_15.jpg', 'zoom': 0, 'scene': 'bathroom', 'dur': 1.1639}, {'ImagePath': 'Images/0 - scenes/LCMatched_bathroom_zoom0_10.jpg', 'zoom': 0, 'scene': 'bathroom', 'dur': 1.4499}, {'ImagePath': 'Images/0 - scenes/LCMatched_bathroom_zoom0_13.jpg', 'zoom': 0, 'scene': 'bathroom', 'dur': 1.8062}, {'ImagePath': 'Images/0 - scenes/LCMatched_bathroom_zoom0_7.jpg', 'zoom': 0, 'scene': 'bathroom', 'dur': 2.25}, {'ImagePath': 'Images/0 - scenes/LCMatched_bathroom_zoom0_8.jpg', 'zoom': 0, 'scene': 'bathroom', 'dur': 0.75}, {'ImagePath': 'Images/0 - scenes/LCMatched_bathroom_zoom0_1.jpg', 'zoom': 0, 'scene': 'bathroom', 'dur': 0.9343}, {'ImagePath': 'Images/0 - scenes/LCMatched_bathroom_zoom0_14.jpg', 'zoom': 0, 'scene': 'bathroom', 'dur': 1.1639}, {'ImagePath': 'Images/0 - scenes/LCMatched_bathroom_zoom0_11.jpg', 'zoom': 0, 'scene': 'bathroom', 'dur': 1.4499}, {'ImagePath': 'Images/0 - scenes/LCMatched_bathroom_zoom0_3.jpg', 'zoom': 0, 'scene': 'bathroom', 'dur': 1.8062}, {'ImagePath': 'Images/0 - scenes/LCMatched_bathroom_zoom0_9.jpg', 'zoom': 0, 'scene': 'bathroom', 'dur': 2.25}, {'ImagePath': 'Images/0 - scenes/LCMatched_bedroom_zoom0_10.jpg', 'zoom': 0, 'scene': 'bedroom', 'dur': 0.75}, {'ImagePath': 'Images/0 - scenes/LCMatched_bedroom_zoom0_4.jpg', 'zoom': 0, 'scene': 'bedroom', 'dur': 0.9343}, {'ImagePath': 'Images/0 - scenes/LCMatched_bedroom_zoom0_11.jpg', 'zoom': 0, 'scene': 'bedroom', 'dur': 1.1639}, {'ImagePath': 'Images/0 - scenes/LCMatched_bedroom_zoom0_12.jpg', 'zoom': 0, 'scene': 'bedroom', 'dur': 1.4499}, {'ImagePath': 'Images/0 - scenes/LCMatched_bedroom_zoom0_2.jpg', 'zoom': 0, 'scene': 'bedroom', 'dur': 1.8062}, {'ImagePath': 'Images/0 - scenes/LCMatched_bedroom_zoom0_14.jpg', 'zoom': 0, 'scene': 'bedroom', 'dur': 2.25}, {'ImagePath': 'Images/0 - scenes/LCMatched_bedroom_zoom0_17.jpg', 'zoom': 0, 'scene': 'bedroom', 'dur': 0.75}, {'ImagePath': 'Images/0 - scenes/LCMatched_bedroom_zoom0_3.jpg', 'zoom': 0, 'scene': 'bedroom', 'dur': 0.9343}, {'ImagePath': 'Images/0 - scenes/LCMatched_bedroom_zoom0_16.jpg', 'zoom': 0, 'scene': 'bedroom', 'dur': 1.1639}, {'ImagePath': 'Images/0 - scenes/LCMatched_bedroom_zoom0_18.jpg', 'zoom': 0, 'scene': 'bedroom', 'dur': 1.4499}, {'ImagePath': 'Images/0 - scenes/LCMatched_bedroom_zoom0_13.jpg', 'zoom': 0, 'scene': 'bedroom', 'dur': 1.8062}, {'ImagePath': 'Images/0 - scenes/LCMatched_bedroom_zoom0_9.jpg', 'zoom': 0, 'scene': 'bedroom', 'dur': 2.25}, {'ImagePath': 'Images/0 - scenes/LCMatched_crafts_zoom0_14.jpg', 'zoom': 0, 'scene': 'craft', 'dur': 0.75}, {'ImagePath': 'Images/0 - scenes/LCMatched_crafts_zoom0_7.jpg', 'zoom': 0, 'scene': 'craft', 'dur': 0.9343}, {'ImagePath': 'Images/0 - scenes/LCMatched_crafts_zoom0_9.jpg', 'zoom': 0, 'scene': 'craft', 'dur': 1.1639}, {'ImagePath': 'Images/0 - scenes/LCMatched_crafts_zoom0_13.jpg', 'zoom': 0, 'scene': 'craft', 'dur': 1.4499}, {'ImagePath': 'Images/0 - scenes/LCMatched_crafts_zoom0_5.jpg', 'zoom': 0, 'scene': 'craft', 'dur': 1.8062}, {'ImagePath': 'Images/0 - scenes/LCMatched_crafts_zoom0_1.jpg', 'zoom': 0, 'scene': 'craft', 'dur': 2.25}, {'ImagePath': 'Images/0 - scenes/LCMatched_crafts_zoom0_2.jpg', 'zoom': 0, 'scene': 'craft', 'dur': 0.75}, {'ImagePath': 'Images/0 - scenes/LCMatched_crafts_zoom0_12.jpg', 'zoom': 0, 'scene': 'craft', 'dur': 0.9343}, {'ImagePath': 'Images/0 - scenes/LCMatched_crafts_zoom0_16.jpg', 'zoom': 0, 'scene': 'craft', 'dur': 1.1639}, {'ImagePath': 'Images/0 - scenes/LCMatched_crafts_zoom0_15.jpg', 'zoom': 0, 'scene': 'craft', 'dur': 1.4499}, {'ImagePath': 'Images/0 - scenes/LCMatched_crafts_zoom0_6.jpg', 'zoom': 0, 'scene': 'craft', 'dur': 1.8062}, {'ImagePath': 'Images/0 - scenes/LCMatched_crafts_zoom0_8.jpg', 'zoom': 0, 'scene': 'craft', 'dur': 2.25}, {'ImagePath': 'Images/0 - scenes/LCMatched_dining_zoom0_4.jpg', 'zoom': 0, 'scene': 'dining', 'dur': 0.75}, {'ImagePath': 'Images/0 - scenes/LCMatched_dining_zoom0_11.jpg', 'zoom': 0, 'scene': 'dining', 'dur': 0.9343}, {'ImagePath': 'Images/0 - scenes/LCMatched_dining_zoom0_2.jpg', 'zoom': 0, 'scene': 'dining', 'dur': 1.1639}, {'ImagePath': 'Images/0 - scenes/LCMatched_dining_zoom0_19.jpg', 'zoom': 0, 'scene': 'dining', 'dur': 1.4499}, {'ImagePath': 'Images/0 - scenes/LCMatched_dining_zoom0_18.jpg', 'zoom': 0, 'scene': 'dining', 'dur': 1.8062}, {'ImagePath': 'Images/0 - scenes/LCMatched_dining_zoom0_16.jpg', 'zoom': 0, 'scene': 'dining', 'dur': 2.25}, {'ImagePath': 'Images/0 - scenes/LCMatched_dining_zoom0_3.jpg', 'zoom': 0, 'scene': 'dining', 'dur': 0.75}, {'ImagePath': 'Images/0 - scenes/LCMatched_dining_zoom0_1.jpg', 'zoom': 0, 'scene': 'dining', 'dur': 0.9343}, {'ImagePath': 'Images/0 - scenes/LCMatched_dining_zoom0_9.jpg', 'zoom': 0, 'scene': 'dining', 'dur': 1.1639}, {'ImagePath': 'Images/0 - scenes/LCMatched_dining_zoom0_8.jpg', 'zoom': 0, 'scene': 'dining', 'dur': 1.4499}, {'ImagePath': 'Images/0 - scenes/LCMatched_dining_zoom0_13.jpg', 'zoom': 0, 'scene': 'dining', 'dur': 1.8062}, {'ImagePath': 'Images/0 - scenes/LCMatched_dining_zoom0_12.jpg', 'zoom': 0, 'scene': 'dining', 'dur': 2.25}, {'ImagePath': 'Images/0 - scenes/LCMatched_kitchen_zoom0_13.jpg', 'zoom': 0, 'scene': 'kitchen', 'dur': 0.75}, {'ImagePath': 'Images/0 - scenes/LCMatched_kitchen_zoom0_26.jpg', 'zoom': 0, 'scene': 'kitchen', 'dur': 0.9343}, {'ImagePath': 'Images/0 - scenes/LCMatched_kitchen_zoom0_2.jpg', 'zoom': 0, 'scene': 'kitchen', 'dur': 1.1639}, {'ImagePath': 'Images/0 - scenes/LCMatched_kitchen_zoom0_22.jpg', 'zoom': 0, 'scene': 'kitchen', 'dur': 1.4499}, {'ImagePath': 'Images/0 - scenes/LCMatched_kitchen_zoom0_11.jpg', 'zoom': 0, 'scene': 'kitchen', 'dur': 1.8062}, {'ImagePath': 'Images/0 - scenes/LCMatched_kitchen_zoom0_24.jpg', 'zoom': 0, 'scene': 'kitchen', 'dur': 2.25}, {'ImagePath': 'Images/0 - scenes/LCMatched_kitchen_zoom0_15.jpg', 'zoom': 0, 'scene': 'kitchen', 'dur': 0.75}, {'ImagePath': 'Images/0 - scenes/LCMatched_kitchen_zoom0_17.jpg', 'zoom': 0, 'scene': 'kitchen', 'dur': 0.9343}, {'ImagePath': 'Images/0 - scenes/LCMatched_kitchen_zoom0_16.jpg', 'zoom': 0, 'scene': 'kitchen', 'dur': 1.1639}, {'ImagePath': 'Images/0 - scenes/LCMatched_kitchen_zoom0_19.jpg', 'zoom': 0, 'scene': 'kitchen', 'dur': 1.4499}, {'ImagePath': 'Images/0 - scenes/LCMatched_kitchen_zoom0_9.jpg', 'zoom': 0, 'scene': 'kitchen', 'dur': 1.8062}, {'ImagePath': 'Images/0 - scenes/LCMatched_kitchen_zoom0_20.jpg', 'zoom': 0, 'scene': 'kitchen', 'dur': 2.25}, {'ImagePath': 'Images/0 - scenes/LCMatched_office_zoom0_3.jpg', 'zoom': 0, 'scene': 'office', 'dur': 0.75}, {'ImagePath': 'Images/0 - scenes/LCMatched_office_zoom0_4.jpg', 'zoom': 0, 'scene': 'office', 'dur': 0.9343}, {'ImagePath': 'Images/0 - scenes/LCMatched_office_zoom0_11.jpg', 'zoom': 0, 'scene': 'office', 'dur': 1.1639}, {'ImagePath': 'Images/0 - scenes/LCMatched_office_zoom0_2.jpg', 'zoom': 0, 'scene': 'office', 'dur': 1.4499}, {'ImagePath': 'Images/0 - scenes/LCMatched_office_zoom0_10.jpg', 'zoom': 0, 'scene': 'office', 'dur': 1.8062}, {'ImagePath': 'Images/0 - scenes/LCMatched_office_zoom0_9.jpg', 'zoom': 0, 'scene': 'office', 'dur': 2.25}, {'ImagePath': 'Images/0 - scenes/LCMatched_office_zoom0_12.jpg', 'zoom': 0, 'scene': 'office', 'dur': 0.75}, {'ImagePath': 'Images/0 - scenes/LCMatched_office_zoom0_5.jpg', 'zoom': 0, 'scene': 'office', 'dur': 0.9343}, {'ImagePath': 'Images/0 - scenes/LCMatched_office_zoom0_13.jpg', 'zoom': 0, 'scene': 'office', 'dur': 1.1639}, {'ImagePath': 'Images/0 - scenes/LCMatched_office_zoom0_1.jpg', 'zoom': 0, 'scene': 'office', 'dur': 1.4499}, {'ImagePath': 'Images/0 - scenes/LCMatched_office_zoom0_8.jpg', 'zoom': 0, 'scene': 'office', 'dur': 1.8062}, {'ImagePath': 'Images/0 - scenes/LCMatched_office_zoom0_7.jpg', 'zoom': 0, 'scene': 'office', 'dur': 2.25}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bathroom_zoom2_10.jpg', 'zoom': 2, 'scene': 'bathroom', 'dur': 0.75}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bathroom_zoom2_14.jpg', 'zoom': 2, 'scene': 'bathroom', 'dur': 0.9343}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bathroom_zoom2_13.jpg', 'zoom': 2, 'scene': 'bathroom', 'dur': 1.1639}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bathroom_zoom2_20.jpg', 'zoom': 2, 'scene': 'bathroom', 'dur': 1.4499}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bathroom_zoom2_12.jpg', 'zoom': 2, 'scene': 'bathroom', 'dur': 1.8062}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bathroom_zoom2_22.jpg', 'zoom': 2, 'scene': 'bathroom', 'dur': 2.25}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bathroom_zoom2_11.jpg', 'zoom': 2, 'scene': 'bathroom', 'dur': 0.75}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bathroom_zoom2_17.jpg', 'zoom': 2, 'scene': 'bathroom', 'dur': 0.9343}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bathroom_zoom2_19.jpg', 'zoom': 2, 'scene': 'bathroom', 'dur': 1.1639}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bathroom_zoom2_4.jpg', 'zoom': 2, 'scene': 'bathroom', 'dur': 1.4499}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bathroom_zoom2_15.jpg', 'zoom': 2, 'scene': 'bathroom', 'dur': 1.8062}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bathroom_zoom2_16.jpg', 'zoom': 2, 'scene': 'bathroom', 'dur': 2.25}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bedroom_zoom2_15.jpg', 'zoom': 2, 'scene': 'bedroom', 'dur': 0.75}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bedroom_zoom2_2.jpg', 'zoom': 2, 'scene': 'bedroom', 'dur': 0.9343}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bedroom_zoom2_13.jpg', 'zoom': 2, 'scene': 'bedroom', 'dur': 1.1639}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bedroom_zoom2_8.jpg', 'zoom': 2, 'scene': 'bedroom', 'dur': 1.4499}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bedroom_zoom2_7.jpg', 'zoom': 2, 'scene': 'bedroom', 'dur': 1.8062}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bedroom_zoom2_18.jpg', 'zoom': 2, 'scene': 'bedroom', 'dur': 2.25}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bedroom_zoom2_19.jpg', 'zoom': 2, 'scene': 'bedroom', 'dur': 0.75}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bedroom_zoom2_14.jpg', 'zoom': 2, 'scene': 'bedroom', 'dur': 0.9343}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bedroom_zoom2_3.jpg', 'zoom': 2, 'scene': 'bedroom', 'dur': 1.1639}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bedroom_zoom2_11.jpg', 'zoom': 2, 'scene': 'bedroom', 'dur': 1.4499}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bedroom_zoom2_1.jpg', 'zoom': 2, 'scene': 'bedroom', 'dur': 1.8062}, {'ImagePath': 'Images/2 - workspaces/LCMatched_bedroom_zoom2_10.jpg', 'zoom': 2, 'scene': 'bedroom', 'dur': 2.25}, {'ImagePath': 'Images/2 - workspaces/LCMatched_crafts_zoom2_1.jpg', 'zoom': 2, 'scene': 'craft', 'dur': 0.75}, {'ImagePath': 'Images/2 - workspaces/LCMatched_crafts_zoom2_26.jpg', 'zoom': 2, 'scene': 'craft', 'dur': 0.9343}, {'ImagePath': 'Images/2 - workspaces/LCMatched_crafts_zoom2_27.jpg', 'zoom': 2, 'scene': 'craft', 'dur': 1.1639}, {'ImagePath': 'Images/2 - workspaces/LCMatched_crafts_zoom2_10.jpg', 'zoom': 2, 'scene': 'craft', 'dur': 1.4499}, {'ImagePath': 'Images/2 - workspaces/LCMatched_crafts_zoom2_5.jpg', 'zoom': 2, 'scene': 'craft', 'dur': 1.8062}, {'ImagePath': 'Images/2 - workspaces/LCMatched_crafts_zoom2_31.jpg', 'zoom': 2, 'scene': 'craft', 'dur': 2.25}, {'ImagePath': 'Images/2 - workspaces/LCMatched_crafts_zoom2_9.jpg', 'zoom': 2, 'scene': 'craft', 'dur': 0.75}, {'ImagePath': 'Images/2 - workspaces/LCMatched_crafts_zoom2_22.jpg', 'zoom': 2, 'scene': 'craft', 'dur': 0.9343}, {'ImagePath': 'Images/2 - workspaces/LCMatched_crafts_zoom2_6.jpg', 'zoom': 2, 'scene': 'craft', 'dur': 1.1639}, {'ImagePath': 'Images/2 - workspaces/LCMatched_crafts_zoom2_12.jpg', 'zoom': 2, 'scene': 'craft', 'dur': 1.4499}, {'ImagePath': 'Images/2 - workspaces/LCMatched_crafts_zoom2_4.jpg', 'zoom': 2, 'scene': 'craft', 'dur': 1.8062}, {'ImagePath': 'Images/2 - workspaces/LCMatched_crafts_zoom2_21.jpg', 'zoom': 2, 'scene': 'craft', 'dur': 2.25}, {'ImagePath': 'Images/2 - workspaces/LCMatched_dining_zoom2_17.jpg', 'zoom': 2, 'scene': 'dining', 'dur': 0.75}, {'ImagePath': 'Images/2 - workspaces/LCMatched_dining_zoom2_2.jpg', 'zoom': 2, 'scene': 'dining', 'dur': 0.9343}, {'ImagePath': 'Images/2 - workspaces/LCMatched_dining_zoom2_5.jpg', 'zoom': 2, 'scene': 'dining', 'dur': 1.1639}, {'ImagePath': 'Images/2 - workspaces/LCMatched_dining_zoom2_14.jpg', 'zoom': 2, 'scene': 'dining', 'dur': 1.4499}, {'ImagePath': 'Images/2 - workspaces/LCMatched_dining_zoom2_8.jpg', 'zoom': 2, 'scene': 'dining', 'dur': 1.8062}, {'ImagePath': 'Images/2 - workspaces/LCMatched_dining_zoom2_9.jpg', 'zoom': 2, 'scene': 'dining', 'dur': 2.25}, {'ImagePath': 'Images/2 - workspaces/LCMatched_dining_zoom2_7.jpg', 'zoom': 2, 'scene': 'dining', 'dur': 0.75}, {'ImagePath': 'Images/2 - workspaces/LCMatched_dining_zoom2_13.jpg', 'zoom': 2, 'scene': 'dining', 'dur': 0.9343}, {'ImagePath': 'Images/2 - workspaces/LCMatched_dining_zoom2_6.jpg', 'zoom': 2, 'scene': 'dining', 'dur': 1.1639}, {'ImagePath': 'Images/2 - workspaces/LCMatched_dining_zoom2_3.jpg', 'zoom': 2, 'scene': 'dining', 'dur': 1.4499}, {'ImagePath': 'Images/2 - workspaces/LCMatched_dining_zoom2_10.jpg', 'zoom': 2, 'scene': 'dining', 'dur': 1.8062}, {'ImagePath': 'Images/2 - workspaces/LCMatched_dining_zoom2_12.jpg', 'zoom': 2, 'scene': 'dining', 'dur': 2.25}, {'ImagePath': 'Images/2 - workspaces/LCMatched_kitchen_zoom2_31.jpg', 'zoom': 2, 'scene': 'kitchen', 'dur': 0.75}, {'ImagePath': 'Images/2 - workspaces/LCMatched_kitchen_zoom2_52.jpg', 'zoom': 2, 'scene': 'kitchen', 'dur': 0.9343}, {'ImagePath': 'Images/2 - workspaces/LCMatched_kitchen_zoom2_35.jpg', 'zoom': 2, 'scene': 'kitchen', 'dur': 1.1639}, {'ImagePath': 'Images/2 - workspaces/LCMatched_kitchen_zoom2_33.jpg', 'zoom': 2, 'scene': 'kitchen', 'dur': 1.4499}, {'ImagePath': 'Images/2 - workspaces/LCMatched_kitchen_zoom2_5.jpg', 'zoom': 2, 'scene': 'kitchen', 'dur': 1.8062}, {'ImagePath': 'Images/2 - workspaces/LCMatched_kitchen_zoom2_8.jpg', 'zoom': 2, 'scene': 'kitchen', 'dur': 2.25}, {'ImagePath': 'Images/2 - workspaces/LCMatched_kitchen_zoom2_29.jpg', 'zoom': 2, 'scene': 'kitchen', 'dur': 0.75}, {'ImagePath': 'Images/2 - workspaces/LCMatched_kitchen_zoom2_27.jpg', 'zoom': 2, 'scene': 'kitchen', 'dur': 0.9343}, {'ImagePath': 'Images/2 - workspaces/LCMatched_kitchen_zoom2_23.jpg', 'zoom': 2, 'scene': 'kitchen', 'dur': 1.1639}, {'ImagePath': 'Images/2 - workspaces/LCMatched_kitchen_zoom2_20.jpg', 'zoom': 2, 'scene': 'kitchen', 'dur': 1.4499}, {'ImagePath': 'Images/2 - workspaces/LCMatched_kitchen_zoom2_1.jpg', 'zoom': 2, 'scene': 'kitchen', 'dur': 1.8062}, {'ImagePath': 'Images/2 - workspaces/LCMatched_kitchen_zoom2_16.jpg', 'zoom': 2, 'scene': 'kitchen', 'dur': 2.25}, {'ImagePath': 'Images/2 - workspaces/LCMatched_office_zoom2_29.jpg', 'zoom': 2, 'scene': 'office', 'dur': 0.75}, {'ImagePath': 'Images/2 - workspaces/LCMatched_office_zoom2_30.jpg', 'zoom': 2, 'scene': 'office', 'dur': 0.9343}, {'ImagePath': 'Images/2 - workspaces/LCMatched_office_zoom2_33.jpg', 'zoom': 2, 'scene': 'office', 'dur': 1.1639}, {'ImagePath': 'Images/2 - workspaces/LCMatched_office_zoom2_32.jpg', 'zoom': 2, 'scene': 'office', 'dur': 1.4499}, {'ImagePath': 'Images/2 - workspaces/LCMatched_office_zoom2_34.jpg', 'zoom': 2, 'scene': 'office', 'dur': 1.8062}, {'ImagePath': 'Images/2 - workspaces/LCMatched_office_zoom2_4.jpg', 'zoom': 2, 'scene': 'office', 'dur': 2.25}, {'ImagePath': 'Images/2 - workspaces/LCMatched_office_zoom2_35.jpg', 'zoom': 2, 'scene': 'office', 'dur': 0.75}, {'ImagePath': 'Images/2 - workspaces/LCMatched_office_zoom2_26.jpg', 'zoom': 2, 'scene': 'office', 'dur': 0.9343}, {'ImagePath': 'Images/2 - workspaces/LCMatched_office_zoom2_31.jpg', 'zoom': 2, 'scene': 'office', 'dur': 1.1639}, {'ImagePath': 'Images/2 - workspaces/LCMatched_office_zoom2_12.jpg', 'zoom': 2, 'scene': 'office', 'dur': 1.4499}, {'ImagePath': 'Images/2 - workspaces/LCMatched_office_zoom2_28.jpg', 'zoom': 2, 'scene': 'office', 'dur': 1.8062}, {'ImagePath': 'Images/2 - workspaces/LCMatched_office_zoom2_27.jpg', 'zoom': 2, 'scene': 'office', 'dur': 2.25}, {'ImagePath': 'Images/4 - objects/LCMatched_bathroom_zoom4_8.jpg', 'zoom': 4, 'scene': 'bathroom', 'dur': 0.75}, {'ImagePath': 'Images/4 - objects/LCMatched_bathroom_zoom4_7.jpg', 'zoom': 4, 'scene': 'bathroom', 'dur': 0.9343}, {'ImagePath': 'Images/4 - objects/LCMatched_bathroom_zoom4_12.jpg', 'zoom': 4, 'scene': 'bathroom', 'dur': 1.1639}, {'ImagePath': 'Images/4 - objects/LCMatched_bathroom_zoom4_2.jpg', 'zoom': 4, 'scene': 'bathroom', 'dur': 1.4499}, {'ImagePath': 'Images/4 - objects/LCMatched_bathroom_zoom4_4.jpg', 'zoom': 4, 'scene': 'bathroom', 'dur': 1.8062}, {'ImagePath': 'Images/4 - objects/LCMatched_bathroom_zoom4_10.jpg', 'zoom': 4, 'scene': 'bathroom', 'dur': 2.25}, {'ImagePath': 'Images/4 - objects/LCMatched_bathroom_zoom4_9.jpg', 'zoom': 4, 'scene': 'bathroom', 'dur': 0.75}, {'ImagePath': 'Images/4 - objects/LCMatched_bathroom_zoom4_13.jpg', 'zoom': 4, 'scene': 'bathroom', 'dur': 0.9343}, {'ImagePath': 'Images/4 - objects/LCMatched_bathroom_zoom4_1.jpg', 'zoom': 4, 'scene': 'bathroom', 'dur': 1.1639}, {'ImagePath': 'Images/4 - objects/LCMatched_bathroom_zoom4_6.jpg', 'zoom': 4, 'scene': 'bathroom', 'dur': 1.4499}, {'ImagePath': 'Images/4 - objects/LCMatched_bathroom_zoom4_11.jpg', 'zoom': 4, 'scene': 'bathroom', 'dur': 1.8062}, {'ImagePath': 'Images/4 - objects/LCMatched_bathroom_zoom4_18.jpg', 'zoom': 4, 'scene': 'bathroom', 'dur': 2.25}, {'ImagePath': 'Images/4 - objects/LCMatched_bedroom_zoom4_11.jpg', 'zoom': 4, 'scene': 'bedroom', 'dur': 0.75}, {'ImagePath': 'Images/4 - objects/LCMatched_bedroom_zoom4_6.jpg', 'zoom': 4, 'scene': 'bedroom', 'dur': 0.9343}, {'ImagePath': 'Images/4 - objects/LCMatched_bedroom_zoom4_5.jpg', 'zoom': 4, 'scene': 'bedroom', 'dur': 1.1639}, {'ImagePath': 'Images/4 - objects/LCMatched_bedroom_zoom4_10.jpg', 'zoom': 4, 'scene': 'bedroom', 'dur': 1.4499}, {'ImagePath': 'Images/4 - objects/LCMatched_bedroom_zoom4_3.jpg', 'zoom': 4, 'scene': 'bedroom', 'dur': 1.8062}, {'ImagePath': 'Images/4 - objects/LCMatched_bedroom_zoom4_4.jpg', 'zoom': 4, 'scene': 'bedroom', 'dur': 2.25}, {'ImagePath': 'Images/4 - objects/LCMatched_bedroom_zoom4_2.jpg', 'zoom': 4, 'scene': 'bedroom', 'dur': 0.75}, {'ImagePath': 'Images/4 - objects/LCMatched_bedroom_zoom4_8.jpg', 'zoom': 4, 'scene': 'bedroom', 'dur': 0.9343}, {'ImagePath': 'Images/4 - objects/LCMatched_bedroom_zoom4_9.jpg', 'zoom': 4, 'scene': 'bedroom', 'dur': 1.1639}, {'ImagePath': 'Images/4 - objects/LCMatched_bedroom_zoom4_7.jpg', 'zoom': 4, 'scene': 'bedroom', 'dur': 1.4499}, {'ImagePath': 'Images/4 - objects/LCMatched_bedroom_zoom4_1.jpg', 'zoom': 4, 'scene': 'bedroom', 'dur': 1.8062}, {'ImagePath': 'Images/4 - objects/LCMatched_bedroom_zoom4_12.jpg', 'zoom': 4, 'scene': 'bedroom', 'dur': 2.25}, {'ImagePath': 'Images/4 - objects/LCMatched_crafts_zoom4_5.jpg', 'zoom': 4, 'scene': 'craft', 'dur': 0.75}, {'ImagePath': 'Images/4 - objects/LCMatched_crafts_zoom4_4.jpg', 'zoom': 4, 'scene': 'craft', 'dur': 0.9343}, {'ImagePath': 'Images/4 - objects/LCMatched_crafts_zoom4_9.jpg', 'zoom': 4, 'scene': 'craft', 'dur': 1.1639}, {'ImagePath': 'Images/4 - objects/LCMatched_crafts_zoom4_12.jpg', 'zoom': 4, 'scene': 'craft', 'dur': 1.4499}, {'ImagePath': 'Images/4 - objects/LCMatched_crafts_zoom4_21.jpg', 'zoom': 4, 'scene': 'craft', 'dur': 1.8062}, {'ImagePath': 'Images/4 - objects/LCMatched_crafts_zoom4_10.jpg', 'zoom': 4, 'scene': 'craft', 'dur': 2.25}, {'ImagePath': 'Images/4 - objects/LCMatched_crafts_zoom4_16.jpg', 'zoom': 4, 'scene': 'craft', 'dur': 0.75}, {'ImagePath': 'Images/4 - objects/LCMatched_crafts_zoom4_3.jpg', 'zoom': 4, 'scene': 'craft', 'dur': 0.9343}, {'ImagePath': 'Images/4 - objects/LCMatched_crafts_zoom4_2.jpg', 'zoom': 4, 'scene': 'craft', 'dur': 1.1639}, {'ImagePath': 'Images/4 - objects/LCMatched_crafts_zoom4_17.jpg', 'zoom': 4, 'scene': 'craft', 'dur': 1.4499}, {'ImagePath': 'Images/4 - objects/LCMatched_crafts_zoom4_13.jpg', 'zoom': 4, 'scene': 'craft', 'dur': 1.8062}, {'ImagePath': 'Images/4 - objects/LCMatched_crafts_zoom4_14.jpg', 'zoom': 4, 'scene': 'craft', 'dur': 2.25}, {'ImagePath': 'Images/4 - objects/LCMatched_dining_zoom4_12.jpg', 'zoom': 4, 'scene': 'dining', 'dur': 0.75}, {'ImagePath': 'Images/4 - objects/LCMatched_dining_zoom4_18.jpg', 'zoom': 4, 'scene': 'dining', 'dur': 0.9343}, {'ImagePath': 'Images/4 - objects/LCMatched_dining_zoom4_16.jpg', 'zoom': 4, 'scene': 'dining', 'dur': 1.1639}, {'ImagePath': 'Images/4 - objects/LCMatched_dining_zoom4_1.jpg', 'zoom': 4, 'scene': 'dining', 'dur': 1.4499}, {'ImagePath': 'Images/4 - objects/LCMatched_dining_zoom4_19.jpg', 'zoom': 4, 'scene': 'dining', 'dur': 1.8062}, {'ImagePath': 'Images/4 - objects/LCMatched_dining_zoom4_3.jpg', 'zoom': 4, 'scene': 'dining', 'dur': 2.25}, {'ImagePath': 'Images/4 - objects/LCMatched_dining_zoom4_2.jpg', 'zoom': 4, 'scene': 'dining', 'dur': 0.75}, {'ImagePath': 'Images/4 - objects/LCMatched_dining_zoom4_4.jpg', 'zoom': 4, 'scene': 'dining', 'dur': 0.9343}, {'ImagePath': 'Images/4 - objects/LCMatched_dining_zoom4_7.jpg', 'zoom': 4, 'scene': 'dining', 'dur': 1.1639}, {'ImagePath': 'Images/4 - objects/LCMatched_dining_zoom4_17.jpg', 'zoom': 4, 'scene': 'dining', 'dur': 1.4499}, {'ImagePath': 'Images/4 - objects/LCMatched_dining_zoom4_15.jpg', 'zoom': 4, 'scene': 'dining', 'dur': 1.8062}, {'ImagePath': 'Images/4 - objects/LCMatched_dining_zoom4_5.jpg', 'zoom': 4, 'scene': 'dining', 'dur': 2.25}, {'ImagePath': 'Images/4 - objects/LCMatched_kitchen_zoom4_14.jpg', 'zoom': 4, 'scene': 'kitchen', 'dur': 0.75}, {'ImagePath': 'Images/4 - objects/LCMatched_kitchen_zoom4_16.jpg', 'zoom': 4, 'scene': 'kitchen', 'dur': 0.9343}, {'ImagePath': 'Images/4 - objects/LCMatched_kitchen_zoom4_1.jpg', 'zoom': 4, 'scene': 'kitchen', 'dur': 1.1639}, {'ImagePath': 'Images/4 - objects/LCMatched_kitchen_zoom4_5.jpg', 'zoom': 4, 'scene': 'kitchen', 'dur': 1.4499}, {'ImagePath': 'Images/4 - objects/LCMatched_kitchen_zoom4_24.jpg', 'zoom': 4, 'scene': 'kitchen', 'dur': 1.8062}, {'ImagePath': 'Images/4 - objects/LCMatched_kitchen_zoom4_22.jpg', 'zoom': 4, 'scene': 'kitchen', 'dur': 2.25}, {'ImagePath': 'Images/4 - objects/LCMatched_kitchen_zoom4_7.jpg', 'zoom': 4, 'scene': 'kitchen', 'dur': 0.75}, {'ImagePath': 'Images/4 - objects/LCMatched_kitchen_zoom4_18.jpg', 'zoom': 4, 'scene': 'kitchen', 'dur': 0.9343}, {'ImagePath': 'Images/4 - objects/LCMatched_kitchen_zoom4_20.jpg', 'zoom': 4, 'scene': 'kitchen', 'dur': 1.1639}, {'ImagePath': 'Images/4 - objects/LCMatched_kitchen_zoom4_17.jpg', 'zoom': 4, 'scene': 'kitchen', 'dur': 1.4499}, {'ImagePath': 'Images/4 - objects/LCMatched_kitchen_zoom4_11.jpg', 'zoom': 4, 'scene': 'kitchen', 'dur': 1.8062}, {'ImagePath': 'Images/4 - objects/LCMatched_kitchen_zoom4_9.jpg', 'zoom': 4, 'scene': 'kitchen', 'dur': 2.25}, {'ImagePath': 'Images/4 - objects/LCMatched_office_zoom4_10.jpg', 'zoom': 4, 'scene': 'office', 'dur': 0.75}, {'ImagePath': 'Images/4 - objects/LCMatched_office_zoom4_1.jpg', 'zoom': 4, 'scene': 'office', 'dur': 0.9343}, {'ImagePath': 'Images/4 - objects/LCMatched_office_zoom4_3.jpg', 'zoom': 4, 'scene': 'office', 'dur': 1.1639}, {'ImagePath': 'Images/4 - objects/LCMatched_office_zoom4_4.jpg', 'zoom': 4, 'scene': 'office', 'dur': 1.4499}, {'ImagePath': 'Images/4 - objects/LCMatched_office_zoom4_11.jpg', 'zoom': 4, 'scene': 'office', 'dur': 1.8062}, {'ImagePath': 'Images/4 - objects/LCMatched_office_zoom4_7.jpg', 'zoom': 4, 'scene': 'office', 'dur': 2.25}, {'ImagePath': 'Images/4 - objects/LCMatched_office_zoom4_13.jpg', 'zoom': 4, 'scene': 'office', 'dur': 0.75}, {'ImagePath': 'Images/4 - objects/LCMatched_office_zoom4_9.jpg', 'zoom': 4, 'scene': 'office', 'dur': 0.9343}, {'ImagePath': 'Images/4 - objects/LCMatched_office_zoom4_12.jpg', 'zoom': 4, 'scene': 'office', 'dur': 1.1639}, {'ImagePath': 'Images/4 - objects/LCMatched_office_zoom4_14.jpg', 'zoom': 4, 'scene': 'office', 'dur': 1.4499}, {'ImagePath': 'Images/4 - objects/LCMatched_office_zoom4_8.jpg', 'zoom': 4, 'scene': 'office', 'dur': 1.8062}, {'ImagePath': 'Images/4 - objects/LCMatched_office_zoom4_5.jpg', 'zoom': 4, 'scene': 'office', 'dur': 2.25}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="blocks.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="fixation_cond"/>
+    <Routine name="image"/>
+    <Routine name="response"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="end_block"/>
+    <LoopTerminator name="blocks"/>
+    <Routine name="end"/>
+  </Flow>
+</PsychoPy2experiment>
